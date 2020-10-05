@@ -1,0 +1,63 @@
+Dependencies for Project 'Blinky', Target 'STM32F103 Flash': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (.\Retarget.c)(0x5320BC4E)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\RTE\Device\STM32F103RB-I.\RTE\_STM32F103_Flash-IC:\Users\jmendez\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\jmendez\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.12.0\Board-IC:\Users\jmendez\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\flash\retarget.o --omf_browse .\flash\retarget.crf --depend .\flash\retarget.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC81EBC)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x5EC81EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC81EBC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (Serial.h)(0x5320BC4E)
+F (.\Serial.c)(0x5320BC4E)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\RTE\Device\STM32F103RB-I.\RTE\_STM32F103_Flash-IC:\Users\jmendez\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\jmendez\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.12.0\Board-IC:\Users\jmendez\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\flash\serial.o --omf_browse .\flash\serial.crf --depend .\flash\serial.d)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825E12C)
+I (.\RTE\_STM32F103_Flash\RTE_Components.h)(0x5F70F02D)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F79E2)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83AF82)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F79E2)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825E12C)
+I (Serial.h)(0x5320BC4E)
+F (.\Blinky.c)(0x54E49B92)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\RTE\Device\STM32F103RB-I.\RTE\_STM32F103_Flash-IC:\Users\jmendez\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\jmendez\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.12.0\Board-IC:\Users\jmendez\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\flash\blinky.o --omf_browse .\flash\blinky.crf --depend .\flash\blinky.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC81EBC)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.12.0\Board\Board_LED.h)(0x5D14C62A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.12.0\Board\Board_Buttons.h)(0x5D14C62A)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825E12C)
+I (.\RTE\_STM32F103_Flash\RTE_Components.h)(0x5F70F02D)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F79E2)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F79E2)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83AF82)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F79E2)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825E12C)
+I (Serial.h)(0x5320BC4E)
+F (.\Abstract.txt)(0x54E49B92)()
+F (C:\Users\jmendez\AppData\Local\Arm\Packs\Keil\STM32NUCLEO_BSP\1.7.0\Boards\ST\NUCLEO-F103RB\Common\Buttons_NUCLEO_F103RB.c)(0x53F62CE0)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\RTE\Device\STM32F103RB-I.\RTE\_STM32F103_Flash-IC:\Users\jmendez\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\jmendez\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.12.0\Board-IC:\Users\jmendez\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\flash\buttons_nucleo_f103rb.o --omf_browse .\flash\buttons_nucleo_f103rb.crf --depend .\flash\buttons_nucleo_f103rb.d)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825E12C)
+I (.\RTE\_STM32F103_Flash\RTE_Components.h)(0x5F70F02D)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F79E2)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83AF82)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F79E2)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825E12C)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.12.0\Board\Board_Buttons.h)(0x5D14C62A)
+F (C:\Users\jmendez\AppData\Local\Arm\Packs\Keil\STM32NUCLEO_BSP\1.7.0\Boards\ST\NUCLEO-F103RB\Common\LED_NUCLEO_F103RB.c)(0x5ADDD27E)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\RTE\Device\STM32F103RB-I.\RTE\_STM32F103_Flash-IC:\Users\jmendez\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\jmendez\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.12.0\Board-IC:\Users\jmendez\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\flash\led_nucleo_f103rb.o --omf_browse .\flash\led_nucleo_f103rb.crf --depend .\flash\led_nucleo_f103rb.d)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825E12C)
+I (.\RTE\_STM32F103_Flash\RTE_Components.h)(0x5F70F02D)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F79E2)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83AF82)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F79E2)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825E12C)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.12.0\Board\Board_LED.h)(0x5D14C62A)
+F (RTE\Device\STM32F103RB\RTE_Device.h)(0x5320BC4E)()
+F (RTE\Device\STM32F103RB\startup_stm32f10x_md.s)(0x5320BC4E)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\Device\STM32F103RB-I.\RTE\_STM32F103_Flash-IC:\Users\jmendez\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\jmendez\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.12.0\Board-IC:\Users\jmendez\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include--pd "__UVISION_VERSION SETA 531" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1" --pd "_RTE_ SETA 1"--list .\flash\startup_stm32f10x_md.lst --xref -o .\flash\startup_stm32f10x_md.o --depend .\flash\startup_stm32f10x_md.d)
+F (RTE\Device\STM32F103RB\system_stm32f10x.c)(0x5320BC4E)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\RTE\Device\STM32F103RB-I.\RTE\_STM32F103_Flash-IC:\Users\jmendez\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\jmendez\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.12.0\Board-IC:\Users\jmendez\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\flash\system_stm32f10x.o --omf_browse .\flash\system_stm32f10x.crf --depend .\flash\system_stm32f10x.d)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825E12C)
+I (.\RTE\_STM32F103_Flash\RTE_Components.h)(0x5F70F02D)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC81EBC)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F79E2)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83AF82)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F79E2)
+I (C:\Users\jmendez\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825E12C)
